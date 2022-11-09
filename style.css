@@ -1,0 +1,61 @@
+.container{
+    width: 500px;
+    margin: auto;
+    border: 2px solid gray;
+    padding: 48px;
+    background-color: rgb(209, 204, 204);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.answer-box{
+   width: 100%;
+   padding: 3px;
+   border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+.reset-btn, .submit-btn{
+    width: 80px;
+    padding: 4px 7px;
+    background-color: blueviolet;
+    color: white;
+    font-size:1em;
+    border-radius: 15px;
+}
+
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: rgb(54, 17, 17);
+}
+
+@media screen and (max-width: 425px) {
+    .container{
+        width: 70%;
+        font-size:13px;
+        padding: 12px;
+    }
+    .submit{
+        width: 60%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+  .container{
+      width: 80%;
+      font-size:13px;
+      padding: 12px;
+  }
+
+  .submit{
+    width: 75%;
+    font-size: 18px;
+}
+}
